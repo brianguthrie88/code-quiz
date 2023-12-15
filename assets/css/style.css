@@ -1,0 +1,87 @@
+/* header tag is a flex box */
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* the timer element is a flex box */
+.card-timer {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 2%;
+}
+
+
+main {
+    width: 100%;
+}
+
+/* the start of the page has the game summary which is a flexbox of children */
+#game-summary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* the game summary link has a 30% width block */
+#game-summary a {
+    width: 30%;
+}
+
+#game-summary button {
+    margin: 2%;
+    background-color: purple;
+    color: white;
+}
+
+.quiz {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quiz ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 30%;
+}
+
+.quiz ul li {
+    margin: 1%;
+    list-style: none;
+    border: solid;
+    border-width: thin;
+    border-color: black;
+    background-color: purple;
+    color: white;
+}
+
+.end-of-game {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.end-of-game form{
+    display: flex;
+    margin:1%;
+    justify-content: space-around;
+}
+
+.end-of-game form input {
+    margin: 2%;
+}
+
+.end-of-game p {
+    width: 150px;
+}
+
+#submit {
+    background-color: purple;
+    color: white;
+}

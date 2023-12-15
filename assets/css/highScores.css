@@ -1,0 +1,27 @@
+/* main tag will have a be a flex box for its children */
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* this element will be a flexbox which is the initials and score */
+.high-score-page {
+    width: 10%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 2%;
+}
+
+/* go back button will be purple with white text */
+#go-back {
+    background-color: purple;
+    color: white;
+}
+
+/* clear highscores button will have a purple background and white text */
+#clear-highscores {
+    background-color: purple;
+    color: white;
+}
